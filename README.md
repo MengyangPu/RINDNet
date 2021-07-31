@@ -6,5 +6,5 @@ RINDNet: Edge Detection for Discontinuity in Reflectance, Illumination, Normal a
 
 ## Benchmark --- BSDS-RIND
 
-![Examples](fig/examples.png)
+<img src="fig/examples.png" width="400">
 
