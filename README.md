@@ -19,9 +19,11 @@ The datasets can be downloaded from:
 
 ### Citation
 If you use the dataset or this code, please consider citing our work
+```bibtex
 @inproceedings{pu2021RINDNet,
     title={RINDNet: Edge Detection for Discontinuity in Reflectance, Illumination, Normal and Depth}, 
     author={Mengyang Pu, Yaping Huang, Qingji Guan and Haibin Ling},
     booktitle={ICCV},
     year={2021}
 }
+```
