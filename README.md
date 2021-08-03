@@ -1,5 +1,5 @@
 ## RINDNet
-> RINDNet: Edge Detection for Discontinuity in Reflectance, Illumination, Normal and Depth                 
+> [RINDNet: Edge Detection for Discontinuity in Reflectance, Illumination, Normal and Depth](https://arxiv.org/abs/2108.00616)                 
 > Mengyang Pu, Yaping Huang, Qingji Guan and Haibin Ling                 
 > *ICCV 2021* (oral)
 
