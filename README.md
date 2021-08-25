@@ -22,16 +22,6 @@ As a fundamental building block in computer vision, edges can be categorised int
 
 ### Code and Main results ----- Coming Soon...
 
-### Citation
-If you use the dataset or this code, please consider citing our work
-```bibtex
-@inproceedings{pu2021RINDNet,
-    title={RINDNet: Edge Detection for Discontinuity in Reflectance, Illumination, Normal and Depth}, 
-    author={Mengyang Pu, Yaping Huang, Qingji Guan and Haibin Ling},
-    booktitle={ICCV},
-    year={2021}
-}
-```
 
 ### Acknowledgments
 - The work is partially done while Mengyang was at Stony Brook University.
