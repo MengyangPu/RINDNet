@@ -27,7 +27,7 @@ git clone https://github.com/MengyangPu/RINDNet.git
 ```
 2. Download the [augmented data](https://drive.google.com/file/d/1CO5QZvuzD9AoQ-t9pFsRJSL7ldAkOSqc/view?usp=sharing) to the local folder /data
 
-3. 
+3. run
 ```shell
 python train_rindnet.py
 ```
@@ -53,12 +53,15 @@ python train_rindnet.py
 | RINDNet    |[modeling/rindnet](modeling/rindnet.py)  | [run/rindnet](https://pan.baidu.com/s/1DykNF-tXFUWMpEXUJHv-4w), code:ef18|
 
 2. Setting the path in [evaluate.py](evaluate.py).
-3. 
+3. run
 ```shell
 python evaluate.py
 ```
 #### Eval
-
+```shell
+cd eval
+run eval.m
+```
 
 ### Main results
 
@@ -84,6 +87,8 @@ python evaluate.py
 | OFNet      |[model](modeling/ofnet2.py)  | 0.437| 0.483| 0.351| 0.247| 0.277| 0.150| 0.468| 0.498| 0.382| 0.661| 0.687| 0.637| 0.453| 0.486| 0.380|
 | RINDNet    |[model](modeling/rindnet.py) | 0.478| 0.521| 0.414| 0.280| 0.337| 0.168| 0.489| 0.522| 0.440| 0.697| 0.724| 0.705| 0.486| 0.526| 0.432|
 
+#### Plot edge PR curves of RIND
+Coming Soon
 
 ### Acknowledgments
 - The work is partially done while Mengyang was at Stony Brook University.
