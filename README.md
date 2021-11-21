@@ -20,36 +20,48 @@ As a fundamental building block in computer vision, edges can be categorised int
 <img src="fig/illustration.png" width=90%>
 
 ### Usage
+#### Training
 1. Clone this repository to local
 ```shell
 git clone https://github.com/MengyangPu/RINDNet.git
 ```
 2. Download the [augmented data](https://drive.google.com/file/d/1CO5QZvuzD9AoQ-t9pFsRJSL7ldAkOSqc/view?usp=sharing) to the local folder /data
 
-3. Download Pre-trained model
+3. 
+```shell
+python train_rindnet.py
+```
 
+#### Testing
+1. Download Pre-trained model
 |   Method   | model                       | Pre-trained Model           |
 | ---------- | --------------------------- | --------------------------- | 
-| HED        |[modeling/hed](modeling/hed.py)          | [run/hed](https://pan.baidu.com/s/1DykNF-tXFUWMpEXUJHv-4w), code:ef18|
+| HED        |[modeling/hed](modeling/hed.py)          | [run/hed](https://pan.baidu.com/s/1DykNF-tXFUWMpEXUJHv-4w), (code:ef18)|
 | CED        |[code](https://github.com/Wangyupei/CED) | [download]() |
-| RCF        |[modeling/rcf](modeling/rcf.py)          | [run/rcf](https://pan.baidu.com/s/1DykNF-tXFUWMpEXUJHv-4w), code:ef18|
-| BDCN       |[modeling/bdcn](modeling/bdcn.py)        | [run/bdcn](https://pan.baidu.com/s/1DykNF-tXFUWMpEXUJHv-4w), code:ef18|
-| DexiNed    |[modeling/dexined](modeling/dexined.py)  | [run/dexined](https://pan.baidu.com/s/1DykNF-tXFUWMpEXUJHv-4w), code:ef18|
-| CASENet    |[modeling/casenet](modeling/casenet.py)  | [run/casenet](https://pan.baidu.com/s/1DykNF-tXFUWMpEXUJHv-4w), code:ef18|
-| DFF        |[modeling/dff](modeling/dff.py)          | [run/dff](https://pan.baidu.com/s/1DykNF-tXFUWMpEXUJHv-4w), code:ef18|
-|\*DeepLabv3+|[modeling/deeplab](modeling/deeplab.py)  | [run/deeplab](https://pan.baidu.com/s/1DykNF-tXFUWMpEXUJHv-4w), code:ef18|
-|\*DOOBNet   |[modeling/doobnet](modeling/doobnet.py)  | [run/doobnet](https://pan.baidu.com/s/1DykNF-tXFUWMpEXUJHv-4w), code:ef18|
-|\*OFNet     |[modeling/ofnet](modeling/ofnet.py)      | [run/ofnet](https://pan.baidu.com/s/1DykNF-tXFUWMpEXUJHv-4w), code:ef18|
-| DeepLab    |[modeling/deeplab2](modeling/deeplab2.py)| [run/deeplab2](https://pan.baidu.com/s/1DykNF-tXFUWMpEXUJHv-4w), code:ef18|
-| DOOBNet    |[modeling/doobnet2](modeling/doobnet2.py)| [run/doobnet2](https://pan.baidu.com/s/1DykNF-tXFUWMpEXUJHv-4w), code:ef18|
-| OFNet      |[modeling/ofnet2](modeling/ofnet2.py)    | [run/ofnet2](https://pan.baidu.com/s/1DykNF-tXFUWMpEXUJHv-4w), code:ef18|
-| RINDNet    |[modeling/rindnet](modeling/rindnet.py)  | [run/rindnet](https://pan.baidu.com/s/1DykNF-tXFUWMpEXUJHv-4w), code:ef18|
+| RCF        |[modeling/rcf](modeling/rcf.py)          | [run/rcf](https://pan.baidu.com/s/1DykNF-tXFUWMpEXUJHv-4w), (code:ef18)|
+| BDCN       |[modeling/bdcn](modeling/bdcn.py)        | [run/bdcn](https://pan.baidu.com/s/1DykNF-tXFUWMpEXUJHv-4w), (code:ef18)|
+| DexiNed    |[modeling/dexined](modeling/dexined.py)  | [run/dexined](https://pan.baidu.com/s/1DykNF-tXFUWMpEXUJHv-4w), (code:ef18)|
+| CASENet    |[modeling/casenet](modeling/casenet.py)  | [run/casenet](https://pan.baidu.com/s/1DykNF-tXFUWMpEXUJHv-4w), (code:ef18)|
+| DFF        |[modeling/dff](modeling/dff.py)          | [run/dff](https://pan.baidu.com/s/1DykNF-tXFUWMpEXUJHv-4w), (code:ef18)|
+|\*DeepLabv3+|[modeling/deeplab](modeling/deeplab.py)  | [run/deeplab](https://pan.baidu.com/s/1DykNF-tXFUWMpEXUJHv-4w), (code:ef18)|
+|\*DOOBNet   |[modeling/doobnet](modeling/doobnet.py)  | [run/doobnet](https://pan.baidu.com/s/1DykNF-tXFUWMpEXUJHv-4w), (code:ef18)|
+|\*OFNet     |[modeling/ofnet](modeling/ofnet.py)      | [run/ofnet](https://pan.baidu.com/s/1DykNF-tXFUWMpEXUJHv-4w), (code:ef18)|
+| DeepLab    |[modeling/deeplab2](modeling/deeplab2.py)| [run/deeplab2](https://pan.baidu.com/s/1DykNF-tXFUWMpEXUJHv-4w), (code:ef18)|
+| DOOBNet    |[modeling/doobnet2](modeling/doobnet2.py)| [run/doobnet2](https://pan.baidu.com/s/1DykNF-tXFUWMpEXUJHv-4w), (code:ef18)|
+| OFNet      |[modeling/ofnet2](modeling/ofnet2.py)    | [run/ofnet2](https://pan.baidu.com/s/1DykNF-tXFUWMpEXUJHv-4w), (code:ef18)|
+| RINDNet    |[modeling/rindnet](modeling/rindnet.py)  | [run/rindnet](https://pan.baidu.com/s/1DykNF-tXFUWMpEXUJHv-4w), (code:ef18)|
+2. Setting the path in [evaluate.py](evaluate.py).
+3. 
+```shell
+python evaluate.py
+```
+#### Eval
 
 
 ### Main results
 
 #### BSDS-RIND
-
+|            |                             | Reflectance |  |   | Illumination|   |  |Normal|      |      |Depth |      |      | Average |   |      |
 |   Method   | model                       | ODS  | OIS  | AP   | ODS  | OIS  | AP   | ODS  | OIS  | AP   | ODS  | OIS  | AP   | ODS  | OIS  | AP   |
 | ---------- | --------------------------- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
 | HED        |[model](modeling/hed.py)     | 0.412| 0.466| 0.343| 0.256| 0.290| 0.167| 0.457| 0.505| 0.395| 0.644| 0.679| 0.667| 0.442| 0.485| 0.393|
