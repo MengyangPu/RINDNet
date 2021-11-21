@@ -31,9 +31,7 @@ git clone https://github.com/MengyangPu/RINDNet.git
 
 #### BSDS-RIND
 
-| Method     | Reflectance        | Illumination       | Normal             | Depth              | Average            | model |
-|            | ------------------ | ------------------ | ------------------ | ------------------ | ------------------ |       |
-|            | ODS  | OIS  | AP   | ODS  | OIS  | AP   | ODS  | OIS  | AP   | ODS  | OIS  | AP   | ODS  | OIS  | AP   |       |
+|   Method   | ODS  | OIS  | AP   | ODS  | OIS  | AP   | ODS  | OIS  | AP   | ODS  | OIS  | AP   | ODS  | OIS  | AP   | model |
 | ---------- | ------------------ | ------------------ | ------------------ | ------------------ | ------------------ | ----- |
 | HED        | 0.412| 0.466| 0.343| 0.256| 0.290| 0.167| 0.457| 0.505| 0.395| 0.644| 0.679| 0.667| 0.442| 0.485| 0.393|[model](modeling/hed.py)|
 | CED        | 0.429| 0.473| 0.361| 0.228| 0.286| 0.118| 0.463| 0.501| 0.372| 0.626| 0.655| 0.620| 0.437| 0.479| 0.368|-|
