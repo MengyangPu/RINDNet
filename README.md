@@ -63,7 +63,9 @@ python evaluate.py
 ### Main results
 
 #### BSDS-RIND
+
 |            |                             | Reflectance |  |   | Illumination|   |  |Normal|      |      |Depth |      |      | Average |   |      |
+
 |   Method   | model                       | ODS  | OIS  | AP   | ODS  | OIS  | AP   | ODS  | OIS  | AP   | ODS  | OIS  | AP   | ODS  | OIS  | AP   |
 | ---------- | --------------------------- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
 | HED        |[model](modeling/hed.py)     | 0.412| 0.466| 0.343| 0.256| 0.290| 0.167| 0.457| 0.505| 0.395| 0.644| 0.679| 0.667| 0.442| 0.485| 0.393|
