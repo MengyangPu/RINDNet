@@ -64,7 +64,8 @@ python evaluate.py
 
 #### BSDS-RIND
 
-| Reflectance        | Illumination       |Normal              |Depth               | Average            |
+|  |  | Reflectance        | Illumination       |Normal              |Depth               | Average            |
+| ---------- | --------------------------- | ------------------ | ------------------ | ------------------ | ------------------ | ------------------ |
 
 |   Method   | model                       | ODS  | OIS  | AP   | ODS  | OIS  | AP   | ODS  | OIS  | AP   | ODS  | OIS  | AP   | ODS  | OIS  | AP   |
 | ---------- | --------------------------- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
