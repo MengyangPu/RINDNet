@@ -54,11 +54,11 @@ git clone https://github.com/MengyangPu/RINDNet.git
 ### Acknowledgments
 - The work is partially done while Mengyang was at Stony Brook University.
 - We thank the anonymous reviewers for valuable and inspiring comments and suggestions.
-- Thanks to previous open-sourced repo:
-  [HED-pytorch](https://github.com/xwjabc/hed)
-  [RCF-pytorch](https://github.com/meteorshowers/RCF-pytorch)
-  [BDCN](https://github.com/pkuCactus/BDCN)
-  [DexiNed](https://github.com/xavysp/DexiNed)
-  [DFF](https://github.com/Lavender105/DFF)
-  [pytorch-deeplab-xception](https://github.com/jfzhang95/pytorch-deeplab-xception)
+- Thanks to previous open-sourced repo:<br/>
+  [HED-pytorch](https://github.com/xwjabc/hed)<br/>
+  [RCF-pytorch](https://github.com/meteorshowers/RCF-pytorch)<br/>
+  [BDCN](https://github.com/pkuCactus/BDCN)<br/>
+  [DexiNed](https://github.com/xavysp/DexiNed)<br/>
+  [DFF](https://github.com/Lavender105/DFF)<br/>
+  [pytorch-deeplab-xception](https://github.com/jfzhang95/pytorch-deeplab-xception)<br/>
   [DOOBNet-pytorch](https://github.com/yuzhegao/doob)
