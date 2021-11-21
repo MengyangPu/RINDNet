@@ -30,20 +30,20 @@ git clone https://github.com/MengyangPu/RINDNet.git
 
 |   Method   | model                       | Pre-trained Model           |
 | ---------- | --------------------------- | --------------------------- | 
-| HED        |[model](modeling/hed.py)     | [download]() |
-| CED        |[code](https://github.com/Wangyupei/CED)    | [download]() |
-| RCF        |[model](modeling/rcf.py)     | [download]() |
-| BDCN       |[model](modeling/bdcn.py)    | [download]() |
-| DexiNed    |[model](modeling/dexined.py) | [download]() |
-| CASENet    |[model](modeling/casenet.py) | [download]() |
-| DFF        |[model](modeling/dff.py)     | [download]() |
-|\*DeepLabv3+|[model](modeling/deeplab.py) | [download]() |
-|\*DOOBNet   |[model](modeling/doobnet.py) | [download]() |
-|\*OFNet     |[model](modeling/ofnet.py)   | [download]() |
-| DeepLab    |[model](modeling/deeplab2.py)| [download]() |
-| DOOBNet    |[model](modeling/doobnet2.py)| [download]() |
-| OFNet      |[model](modeling/ofnet2.py)  | [download]() |
-| RINDNet    |[model](modeling/rindnet.py) | [download]() |
+| HED        |[modeling/hed](modeling/hed.py)          | [run/hed](https://pan.baidu.com/s/1DykNF-tXFUWMpEXUJHv-4w), code:ef18|
+| CED        |[code](https://github.com/Wangyupei/CED) | [download]() |
+| RCF        |[modeling/rcf](modeling/rcf.py)          | [run/rcf](https://pan.baidu.com/s/1DykNF-tXFUWMpEXUJHv-4w), code:ef18|
+| BDCN       |[modeling/bdcn](modeling/bdcn.py)        | [run/bdcn](https://pan.baidu.com/s/1DykNF-tXFUWMpEXUJHv-4w), code:ef18|
+| DexiNed    |[modeling/dexined](modeling/dexined.py)  | [run/dexined](https://pan.baidu.com/s/1DykNF-tXFUWMpEXUJHv-4w), code:ef18|
+| CASENet    |[modeling/casenet](modeling/casenet.py)  | [run/casenet](https://pan.baidu.com/s/1DykNF-tXFUWMpEXUJHv-4w), code:ef18|
+| DFF        |[modeling/dff](modeling/dff.py)          | [run/dff](https://pan.baidu.com/s/1DykNF-tXFUWMpEXUJHv-4w), code:ef18|
+|\*DeepLabv3+|[modeling/deeplab](modeling/deeplab.py)  | [run/deeplab](https://pan.baidu.com/s/1DykNF-tXFUWMpEXUJHv-4w), code:ef18|
+|\*DOOBNet   |[modeling/doobnet](modeling/doobnet.py)  | [run/doobnet](https://pan.baidu.com/s/1DykNF-tXFUWMpEXUJHv-4w), code:ef18|
+|\*OFNet     |[modeling/ofnet](modeling/ofnet.py)      | [run/ofnet](https://pan.baidu.com/s/1DykNF-tXFUWMpEXUJHv-4w), code:ef18|
+| DeepLab    |[modeling/deeplab2](modeling/deeplab2.py)| [run/deeplab2](https://pan.baidu.com/s/1DykNF-tXFUWMpEXUJHv-4w), code:ef18|
+| DOOBNet    |[modeling/doobnet2](modeling/doobnet2.py)| [run/doobnet2](https://pan.baidu.com/s/1DykNF-tXFUWMpEXUJHv-4w), code:ef18|
+| OFNet      |[modeling/ofnet2](modeling/ofnet2.py)    | [run/ofnet2](https://pan.baidu.com/s/1DykNF-tXFUWMpEXUJHv-4w), code:ef18|
+| RINDNet    |[modeling/rindnet](modeling/rindnet.py)  | [run/rindnet](https://pan.baidu.com/s/1DykNF-tXFUWMpEXUJHv-4w), code:ef18|
 
 
 ### Main results
