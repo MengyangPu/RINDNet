@@ -27,7 +27,7 @@ git clone https://github.com/MengyangPu/RINDNet.git
 2. Download the [augmented data](https://drive.google.com/file/d/1CO5QZvuzD9AoQ-t9pFsRJSL7ldAkOSqc/view?usp=sharing) to the local folder /data
 
 3. Download Pre-trained model
-|   Method   | model                       | Pre-trained Model
+|   Method   | model                       | Pre-trained Model.          |
 | ---------- | --------------------------- | --------------------------- | 
 | HED        |[model](modeling/hed.py)     | [download]() |
 | CED        |-                            | [download]() |
