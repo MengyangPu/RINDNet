@@ -34,6 +34,7 @@ python train_rindnet.py
 
 #### Testing
 1. Download Pre-trained model
+
 |   Method   | model                                   | Pre-trained Model                                                          |
 | ---------- | --------------------------------------- | ------------------------------------------------------------------------ | 
 | HED        |[modeling/hed](modeling/hed.py)          | [run/hed](https://pan.baidu.com/s/1DykNF-tXFUWMpEXUJHv-4w), code:ef18    |
@@ -50,6 +51,7 @@ python train_rindnet.py
 | DOOBNet    |[modeling/doobnet2](modeling/doobnet2.py)| [run/doobnet2](https://pan.baidu.com/s/1DykNF-tXFUWMpEXUJHv-4w), code:ef18|
 | OFNet      |[modeling/ofnet2](modeling/ofnet2.py)    | [run/ofnet2](https://pan.baidu.com/s/1DykNF-tXFUWMpEXUJHv-4w), code:ef18 |
 | RINDNet    |[modeling/rindnet](modeling/rindnet.py)  | [run/rindnet](https://pan.baidu.com/s/1DykNF-tXFUWMpEXUJHv-4w), code:ef18|
+
 2. Setting the path in [evaluate.py](evaluate.py).
 3. 
 ```shell
