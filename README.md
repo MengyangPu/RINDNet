@@ -24,7 +24,25 @@ As a fundamental building block in computer vision, edges can be categorised int
 ```shell
 git clone https://github.com/MengyangPu/RINDNet.git
 ```
-2. Download the dataset to the local folder
+2. Download the [augmented data](https://drive.google.com/file/d/1CO5QZvuzD9AoQ-t9pFsRJSL7ldAkOSqc/view?usp=sharing) to the local folder /data
+
+3. Download Pre-trained model
+|   Method   | model                       | Pre-trained Model
+| ---------- | --------------------------- | --------------------------- | 
+| HED        |[model](modeling/hed.py)     | [download]() |
+| CED        |-                            | [download]() |
+| RCF        |[model](modeling/rcf.py)     | [download]() |
+| BDCN       |[model](modeling/bdcn.py)    | [download]() |
+| DexiNed    |[model](modeling/dexined.py) | [download]() |
+| CASENet    |[model](modeling/casenet.py) | [download]() |
+| DFF        |[model](modeling/dff.py)     | [download]() |
+|\*DeepLabv3+|[model](modeling/deeplab.py) | [download]() |
+|\*DOOBNet   |[model](modeling/doobnet.py) | [download]() |
+|\*OFNet     |[model](modeling/ofnet.py)   | [download]() |
+| DeepLab    |[model](modeling/deeplab2.py)| [download]() |
+| DOOBNet    |[model](modeling/doobnet2.py)| [download]() |
+| OFNet      |[model](modeling/ofnet2.py)  | [download]() |
+| RINDNet    |[model](modeling/rindnet.py) | [download]() |
 
 
 ### Main results
