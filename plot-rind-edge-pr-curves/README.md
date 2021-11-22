@@ -1,9 +1,9 @@
 ## Plot rind-edge PR Curves
 
-    ```shell
-    run plot_rind_edge.m
-    run plot_rind_alledges.m
-    ```
+```shell
+run plot_rind_edge.m
+run plot_rind_alledges.m
+```
 
 ### Reflectance Edges PR Curves
 <img src="reflectance.png" width="500">
