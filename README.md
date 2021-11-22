@@ -1,11 +1,11 @@
-## RINDNet
+# RINDNet
 > [RINDNet: Edge Detection for Discontinuity in Reflectance, Illumination, Normal and Depth](https://arxiv.org/abs/2108.00616)                 
 > Mengyang Pu, Yaping Huang, Qingji Guan and Haibin Ling                 
 > *ICCV 2021* (oral)
 
 Please refer to [supplementary material](https://pan.baidu.com/s/1oMteiIaPwjWgH-ihCA2S5g) (code:p86d) (~60M) for more results.
 
-### Benchmark --- 🔥🔥BSDS-RIND🔥🔥
+## Benchmark --- 🔥🔥BSDS-RIND🔥🔥
 BSDS-RIND is the first public benchmark that dedicated to studying simultaneously the four edge types, namely Reflectance Edge (RE), Illumination Edge (IE), Normal Edge (NE) and Depth Edge (DE). It is created by carefully labeling images from the [BSDS500](https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/grouping/resources.html).
 The datasets can be downloaded from:
 - Original images: [BSDS500](https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/grouping/resources.html)
@@ -14,13 +14,13 @@ The datasets can be downloaded from:
 <img src="fig/examples.png" width="500">
 
 
-### Abstract
+## Abstract
 As a fundamental building block in computer vision, edges can be categorised into four types according to the discontinuity in *surface-Reflectance*, *Illumination*, *surface-Normal* or *Depth*. While great progress has been made in detecting generic or individual types of edges, it remains under-explored to comprehensively study all four edge types together. In this paper, we propose a novel neural network solution, *RINDNet*, to jointly detect all four types of edges. Taking into consideration the distinct attributes of each type of edges and the relationship between them, RINDNet learns effective representations for each of them and works in three stages. In stage I, RINDNet uses a common backbone to extract features shared by all edges. Then in stage II it branches to prepare discriminative features for each edge type by the corresponding decoder. In stage III, an independent decision head for each type aggregates the features from previous stages to predict the initial results. Additionally, an attention module learns attention maps for all types to capture the underlying relations between them, and these maps are combined with initial results to generate the final edge detection results. For training and evaluation, we construct the first public benchmark, BSDS-RIND, with all four types of edges carefully annotated. In our experiments, RINDNet yields promising results in comparison with state-of-the-art methods.
 
 <img src="fig/illustration.png" width=90%>
 
-### Usage
-#### Training
+## Usage
+### Training
 1. Clone this repository to local
 ```shell
 git clone https://github.com/MengyangPu/RINDNet.git
@@ -32,7 +32,7 @@ git clone https://github.com/MengyangPu/RINDNet.git
 python train_rindnet.py
 ```
 
-#### Testing
+### Testing
 1. Download Pre-trained model for **four types of edges**, including Reflectance Edges (REs), Illumination Edges (IEs), Normal Edges (NEs), and Depth Edges (DEs).
 
 |   Method   | model                                   | Pre-trained Model                                                          |
@@ -73,15 +73,15 @@ Download Pre-trained model for **Generic Edges**.
 ```shell
 python evaluate.py
 ```
-#### Eval
+### Eval
 ```shell
 cd eval
 run eval.m
 ```
 
-### Main results
+## Main results
 
-#### BSDS-RIND
+### BSDS-RIND
 
 |   Method   | model                       | Reflectance F\-measure | Illumination F\-measure | Normal F\-measure |Depth F\-measure | Average F\-measure |
 | ---------- | --------------------------- | ------------------ | ------------------ | ------------------ | ------------------ | ------------------ |
@@ -103,10 +103,10 @@ run eval.m
 | OFNet      |[model](modeling/ofnet2.py)  | 0.437| 0.483| 0.351| 0.247| 0.277| 0.150| 0.468| 0.498| 0.382| 0.661| 0.687| 0.637| 0.453| 0.486| 0.380|
 | RINDNet    |[model](modeling/rindnet.py) | 0.478| 0.521| 0.414| 0.280| 0.337| 0.168| 0.489| 0.522| 0.440| 0.697| 0.724| 0.705| 0.486| 0.526| 0.432|
 
-#### Plot edge PR curves of RIND
+### Plot edge PR curves of RIND
 We have released the code and data for plotting the edge PR curves of the above edge detectors [here](https://github.com/MengyangPu/RINDNet/tree/main/plot-rind-edge-pr-curves).
 
-### Acknowledgments
+## Acknowledgments
 - The work is partially done while Mengyang was at Stony Brook University.
 - We thank the anonymous reviewers for valuable and inspiring comments and suggestions.
 - Thanks to previous open-sourced repo:<br/>
