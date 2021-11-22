@@ -47,7 +47,7 @@ python train_rindnet.py
 |\*DeepLabv3+|[modeling/deeplab](modeling/deeplab.py)  | [run/deeplab](https://pan.baidu.com/s/1DykNF-tXFUWMpEXUJHv-4w), code:ef18|
 |\*DOOBNet   |[modeling/doobnet](modeling/doobnet.py)  | [run/doobnet](https://pan.baidu.com/s/1DykNF-tXFUWMpEXUJHv-4w), code:ef18|
 |\*OFNet     |[modeling/ofnet](modeling/ofnet.py)      | [run/ofnet](https://pan.baidu.com/s/1DykNF-tXFUWMpEXUJHv-4w), code:ef18  |
-| DeepLab    |[modeling/deeplab2](modeling/deeplab2.py)| [run/deeplab2](https://pan.baidu.com/s/1DykNF-tXFUWMpEXUJHv-4w), code:ef18|
+| DeepLabv3+ |[modeling/deeplab2](modeling/deeplab2.py)| [run/deeplab2](https://pan.baidu.com/s/1DykNF-tXFUWMpEXUJHv-4w), code:ef18|
 | DOOBNet    |[modeling/doobnet2](modeling/doobnet2.py)| [run/doobnet2](https://pan.baidu.com/s/1DykNF-tXFUWMpEXUJHv-4w), code:ef18|
 | OFNet      |[modeling/ofnet2](modeling/ofnet2.py)    | [run/ofnet2](https://pan.baidu.com/s/1DykNF-tXFUWMpEXUJHv-4w), code:ef18 |
 | RINDNet    |[modeling/rindnet](modeling/rindnet.py)  | [run/rindnet](https://pan.baidu.com/s/1DykNF-tXFUWMpEXUJHv-4w), code:ef18|
@@ -82,7 +82,7 @@ run eval.m
 |\*DeepLabv3+|[model](modeling/deeplab.py) | 0.297| 0.338| 0.165| 0.103| 0.150| 0.049| 0.366| 0.398| 0.232| 0.535| 0.579| 0.449| 0.325| 0.366| 0.224|
 |\*DOOBNet   |[model](modeling/doobnet.py) | 0.431| 0.489| 0.370| 0.143| 0.210| 0.069| 0.442| 0.490| 0.339| 0.658| 0.689| 0.662| 0.419| 0.470| 0.360|
 |\*OFNet     |[model](modeling/ofnet.py)   | 0.446| 0.483| 0.375| 0.147| 0.207| 0.071| 0.439| 0.478| 0.325| 0.656| 0.683| 0.668| 0.422| 0.463| 0.360|
-| DeepLab    |[model](modeling/deeplab2.py)| 0.444| 0.487| 0.356| 0.241| 0.291| 0.148| 0.456| 0.495| 0.368| 0.644| 0.671| 0.617| 0.446| 0.486| 0.372|
+| DeepLabv3+ |[model](modeling/deeplab2.py)| 0.444| 0.487| 0.356| 0.241| 0.291| 0.148| 0.456| 0.495| 0.368| 0.644| 0.671| 0.617| 0.446| 0.486| 0.372|
 | DOOBNet    |[model](modeling/doobnet2.py)| 0.446| 0.503| 0.355| 0.228| 0.272| 0.132| 0.465| 0.499| 0.373| 0.661| 0.691| 0.643| 0.450| 0.491| 0.376|
 | OFNet      |[model](modeling/ofnet2.py)  | 0.437| 0.483| 0.351| 0.247| 0.277| 0.150| 0.468| 0.498| 0.382| 0.661| 0.687| 0.637| 0.453| 0.486| 0.380|
 | RINDNet    |[model](modeling/rindnet.py) | 0.478| 0.521| 0.414| 0.280| 0.337| 0.168| 0.489| 0.522| 0.440| 0.697| 0.724| 0.705| 0.486| 0.526| 0.432|
