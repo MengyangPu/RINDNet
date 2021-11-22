@@ -115,18 +115,6 @@ run eval.m
 We have released the code and data for plotting the edge PR curves of the above edge detectors [here](https://github.com/MengyangPu/RINDNet/tree/main/plot-rind-edge-pr-curves).
 
 
-## Reference
-```bibtex
-@InProceedings{Pu_2021ICCV_RINDNet,
-    author    = {Pu, Mengyang and Huang, Yaping and Guan, Qingji and Ling, Haibin},
-    title     = {RINDNet: Edge Detection for Discontinuity in Reflectance, Illumination, Normal and Depth},
-    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
-    month     = {October},
-    year      = {2021},
-    pages     = {6879-6888}
-}
-```
-
 ## Acknowledgments
 - The work is partially done while Mengyang was at Stony Brook University.
 - We thank the anonymous reviewers for valuable and inspiring comments and suggestions.
@@ -138,3 +126,15 @@ We have released the code and data for plotting the edge PR curves of the above 
   [DFF](https://github.com/Lavender105/DFF)<br/>
   [pytorch-deeplab-xception](https://github.com/jfzhang95/pytorch-deeplab-xception)<br/>
   [DOOBNet-pytorch](https://github.com/yuzhegao/doob)
+  
+## Reference
+```bibtex
+@InProceedings{Pu_2021ICCV_RINDNet,
+    author    = {Pu, Mengyang and Huang, Yaping and Guan, Qingji and Ling, Haibin},
+    title     = {RINDNet: Edge Detection for Discontinuity in Reflectance, Illumination, Normal and Depth},
+    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+    month     = {October},
+    year      = {2021},
+    pages     = {6879-6888}
+}
+```
