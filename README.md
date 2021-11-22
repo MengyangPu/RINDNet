@@ -88,7 +88,7 @@ run eval.m
 | RINDNet    |[model](modeling/rindnet.py) | 0.478| 0.521| 0.414| 0.280| 0.337| 0.168| 0.489| 0.522| 0.440| 0.697| 0.724| 0.705| 0.486| 0.526| 0.432|
 
 #### Plot edge PR curves of RIND
-Coming Soon
+We have released the code and data for plotting the edge PR curves of the above edge detectors [here](https://github.com/MengyangPu/RINDNet/tree/main/plot-rind-edge-pr-curves).
 
 ### Acknowledgments
 - The work is partially done while Mengyang was at Stony Brook University.
