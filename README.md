@@ -27,10 +27,13 @@ git clone https://github.com/MengyangPu/RINDNet.git
 ```
 2. Download the [augmented data](https://drive.google.com/file/d/1CO5QZvuzD9AoQ-t9pFsRJSL7ldAkOSqc/view?usp=sharing) to the local folder /data
 
-3. run
+3. run train
 ```shell
 python train_rindnet.py
+or
+python train_rindnet_edge.py
 ```
+more train files (train_*modelname*.py and train_*modelname_edge*.py) in [/train_tools](train_tools)
 
 ### Testing
 1. Download Pre-trained model for **four types of edges**, including Reflectance Edges (REs), Illumination Edges (IEs), Normal Edges (NEs), and Depth Edges (DEs).
@@ -68,10 +71,12 @@ Download Pre-trained model for **Generic Edges**.
 | OFNet      |[modeling/ofnet_edge](modeling/ofnet_edge.py)     | [run_edge/ofnet](https://pan.baidu.com/s/1dIScqwNA-79PYW-fGeMYLg), code:jhsr   |
 | RINDNet    |[modeling/rindnet_edge](modeling/rindnet_edge.py) | [run_edge/rindnet](https://pan.baidu.com/s/1dIScqwNA-79PYW-fGeMYLg), code:jhsr |
 
-2. Setting the path in [evaluate.py](evaluate.py).
+2. Setting the path in [evaluate.py](evaluate.py) or [evaluate_edge.py](evaluate_edge.py).
 3. run
 ```shell
 python evaluate.py
+or
+python evaluate_edge.py
 ```
 ### Eval
 ```shell
