@@ -114,6 +114,8 @@ run eval.m
 ### Plot edge PR curves of RIND
 We have released the code and data for plotting the edge PR curves of the above edge detectors [here](https://github.com/MengyangPu/RINDNet/tree/main/plot-rind-edge-pr-curves).
 
+### Precomputed Results
+If you want to compare your method with RINDNet and other methods, you can download the precomputed results from (coming soon).
 
 ## Acknowledgments
 - The work is partially done while Mengyang was at Stony Brook University.
