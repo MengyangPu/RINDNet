@@ -17,7 +17,7 @@ colors = {
 lines = {'-','-','-','-','-','-','--','--','--','--','--'};
 
 names = {
-    'Ours'
+    'RINDNet'
     'DFF'
     'RCF'
     'CASENet'
