@@ -35,6 +35,9 @@ python train_rindnet_edge.py
 ```
 more train files (train_*modelname*.py and train_*modelname_edge*.py) in [/train_tools](train_tools)
 
+4. Note: The imagenet pretrained vgg16 pytorch model for BDCN can be downloaded in [vgg16.pth](link: https://pan.baidu.com/s/10Tgjs7FiAYWjVyVgvEM0mA) code: ab4g.
+         The imagenet pretrained vgg16 pytorch model for HED can be downloaded in [5stage-vgg.py36pickle](https://pan.baidu.com/s/1lQbAnNhymhXPYM2wL0cSnA) code: 9po1.
+
 ### Testing
 1. Download Pre-trained model for **four types of edges**, including Reflectance Edges (REs), Illumination Edges (IEs), Normal Edges (NEs), and Depth Edges (DEs).
 
@@ -110,6 +113,19 @@ run eval.m
 
 ### Plot edge PR curves of RIND
 We have released the code and data for plotting the edge PR curves of the above edge detectors [here](https://github.com/MengyangPu/RINDNet/tree/main/plot-rind-edge-pr-curves).
+
+
+## Reference
+```bibtex
+@InProceedings{Pu_2021ICCV_RINDNet,
+    author    = {Pu, Mengyang and Huang, Yaping and Guan, Qingji and Ling, Haibin},
+    title     = {RINDNet: Edge Detection for Discontinuity in Reflectance, Illumination, Normal and Depth},
+    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+    month     = {October},
+    year      = {2021},
+    pages     = {6879-6888}
+}
+```
 
 ## Acknowledgments
 - The work is partially done while Mengyang was at Stony Brook University.
