@@ -33,7 +33,7 @@ python train_rindnet.py
 ```
 
 #### Testing
-1. Download Pre-trained model
+1. Download Pre-trained model for **four types of edges**, including Reflectance Edges (REs), Illumination Edges (IEs), Normal Edges (NEs), and Depth Edges (DEs).
 
 |   Method   | model                                   | Pre-trained Model                                                          |
 | ---------- | --------------------------------------- | ------------------------------------------------------------------------ | 
@@ -51,6 +51,22 @@ python train_rindnet.py
 | DOOBNet    |[modeling/doobnet2](modeling/doobnet2.py)| [run/doobnet2](https://pan.baidu.com/s/1DykNF-tXFUWMpEXUJHv-4w), code:ef18|
 | OFNet      |[modeling/ofnet2](modeling/ofnet2.py)    | [run/ofnet2](https://pan.baidu.com/s/1DykNF-tXFUWMpEXUJHv-4w), code:ef18 |
 | RINDNet    |[modeling/rindnet](modeling/rindnet.py)  | [run/rindnet](https://pan.baidu.com/s/1DykNF-tXFUWMpEXUJHv-4w), code:ef18|
+
+Download Pre-trained model for **Generic Edges**.
+
+|   Method   | model                                            | Pre-trained Model                                                              |
+| ---------- | ------------------------------------------------ | ------------------------------------------------------------------------------ | 
+| HED        |[modeling/hed_edge](modeling/hed_edge.py)         | [run_edge/hed](https://pan.baidu.com/s/1dIScqwNA-79PYW-fGeMYLg), code:jhsr     |
+| CED        |[code](https://github.com/Wangyupei/CED)          | [download]()                                                                   |
+| RCF        |[modeling/rcf_edge](modeling/rcf_edge.py)         | [run_edge/rcf](https://pan.baidu.com/s/1dIScqwNA-79PYW-fGeMYLg), code:jhsr     |
+| BDCN       |[modeling/bdcn_edge](modeling/bdcn_edge.py)       | [run_edge/bdcn](https://pan.baidu.com/s/1dIScqwNA-79PYW-fGeMYLg), code:jhsr    |
+| DexiNed    |[modeling/dexined_edge](modeling/dexined_edge.py) | [run_edge/dexined](https://pan.baidu.com/s/1dIScqwNA-79PYW-fGeMYLg), code:jhsr |
+| CASENet    |[modeling/casenet_edge](modeling/casenet_edge.py) | [run_edge/casenet](https://pan.baidu.com/s/1dIScqwNA-79PYW-fGeMYLg), code:jhsr |
+| DFF        |[modeling/dff_edge](modeling/dff_edge.py)         | [run_edge/dff](https://pan.baidu.com/s/1dIScqwNA-79PYW-fGeMYLg), code:jhsr     |
+| DeepLabv3+ |[modeling/deeplab_edge](modeling/deeplab_edge.py) | [run_edge/deeplab](https://pan.baidu.com/s/1dIScqwNA-79PYW-fGeMYLg), code:jhsr |
+| DOOBNet    |[modeling/doobnet_edge](modeling/doobnet_edge.py) | [run_edge/doobnet](https://pan.baidu.com/s/1dIScqwNA-79PYW-fGeMYLg), code:jhsr |
+| OFNet      |[modeling/ofnet_edge](modeling/ofnet_edge.py)     | [run_edge/ofnet](https://pan.baidu.com/s/1dIScqwNA-79PYW-fGeMYLg), code:jhsr   |
+| RINDNet    |[modeling/rindnet_edge](modeling/rindnet_edge.py) | [run_edge/rindnet](https://pan.baidu.com/s/1dIScqwNA-79PYW-fGeMYLg), code:jhsr |
 
 2. Setting the path in [evaluate.py](evaluate.py).
 3. run
