@@ -16,11 +16,11 @@ function edgesEvalPlot(path, names, colors, lines, years, human)
 % parse inputs
 if(~iscell(names)), names={names}; end
 if(nargin<3||isempty(colors)), colors=repmat({'r','g','b','k','m','c','y'},1,100); end
-if(nargin<4||isempty(lines)), lines=repmat({'-'},1,100); end
-%if(nargin<5||isempty(years)), years=repmat({''},1,100); end
+%if(nargin<4||isempty(lines)), lines=repmat({'-'},1,100); end
+if(nargin<5||isempty(years)), years=repmat({''},1,100); end
 if(~iscell(colors)), colors={colors}; end
 if(~iscell(lines)), lines={lines}; end
-%if(~iscell(years)), years={years}; end
+if(~iscell(years)), years={years}; end
 
 % setup basic plot (isometric contour lines and human performance)
 clf; box on; grid on; hold on;
@@ -43,18 +43,18 @@ end
 
 % sort algorithms by ODS score
 [~,o]=sort(res(:,4),'descend'); res=res(o,:); prs=prs(o);
-colors=colors(o);  lines=lines(o);  names=names(o); %years=years(o);
+colors=colors(o);  lines=lines(o);  names=names(o); years=years(o);
 
 % plot results for every algorithm (plot best last)
 for i=n:-1:1
   hs(i)=plot(prs{i}(:,2),prs{i}(:,3),'-','LineWidth',2,'Color',colors{i},'LineStyle',lines{i});
   fprintf('ODS=%.3f OIS=%.3f AP=%.3f R50=%.3f',res(i,[4 7:9]));
-  if(~isempty(names)), fprintf(' - %s',[names{i}]); end; fprintf('\n');
+  if(~isempty(names)), fprintf(' - %s',[names{i} years{i}]); end; fprintf('\n');
 end
 
 % show legend if nms provided (report best first)
 hold off; if(isempty(names)), return; end
-for i=1:n, names{i}=sprintf('[F=.%3d] %s',round(res(i,4)*1000),[names{i}]); end
-legend(hs,names,'FontSize',14,'Location','sw');
+for i=1:n, names{i}=sprintf('[F=.%3d] %s',round(res(i,4)*1000),[names{i} years{i}]); end
+legend(hs,names,'FontSize',13,'Location','sw');
 
 end
