@@ -30,17 +30,20 @@ names = {
     'DexiNed'
 };
 
-% years = {
-%     ' (2019)'
-%     ' (2019)'
-%     ' (2019)'
-%     ' (2018)'
-%     ' (2017)'
-%     ' (2017)'
-%     ' (2015)'
-%     ' (2015)'
-% };
+years = {
+    ' (2021)'
+    ' (2019)'
+    ' (2017)'
+    ' (2017)'
+    ' (2019)'
+    ' (2019)'
+    ' (2018)'
+    ' (2018)'
+    ' (2015)'
+    ' (2017)'
+    ' (2020)'
+};
 
 edgesEvalPlot('eval_rind_edges', names, colors, lines, years, true);
 % saveas(gcf,'rind_all_edges.png');
-% close all;
+close all;
