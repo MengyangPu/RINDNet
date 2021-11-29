@@ -82,6 +82,7 @@ or
 python evaluate_edge.py
 ```
 ### Eval
+The .mat format files of testing set can be download [here](https://drive.google.com/file/d/1pLXJblrHMxy3p2c6ulSUSAG5AoV_KaC9/view?usp=sharing).
 ```shell
 cd eval
 run eval.m
