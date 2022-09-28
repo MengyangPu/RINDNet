@@ -41,7 +41,7 @@ more train files (train_*modelname*.py and train_*modelname_edge*.py) in [/train
 ### Testing
 1. Download Pre-trained model for **four types of edges**, including Reflectance Edges (REs), Illumination Edges (IEs), Normal Edges (NEs), and Depth Edges (DEs).
 
-|   Method   | model                                   | Pre-trained Model                                                          |
+|   Method   | model                                   | Pre-trained Model  [GoogleDrive](https://drive.google.com/drive/folders/1pAgUXxJczZ4wG3M56eeuiYAjuSXTpqNf?usp=sharing)                                                          |
 | ---------- | --------------------------------------- | ------------------------------------------------------------------------ | 
 | HED        |[modeling/hed](modeling/hed.py)          | [run/hed](https://pan.baidu.com/s/1DykNF-tXFUWMpEXUJHv-4w), code:ef18    |
 | CED        |[code](https://github.com/Wangyupei/CED) | [download]()                                                             |
